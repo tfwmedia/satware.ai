@@ -66,7 +66,7 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 <li>M&ouml;glichkeiten zur Erstellung eigener Datenbankanbindungen / KI im System </li>
 <li>Diskussion &uuml;ber Halluzinationen von Perplexity vs. ChatGPT und Kostenaspekte </li>
 </ul>
-<p> Erfahren Sie, wie die Alesi KI-Agenten Unternehmen im DACH-Raum dabei unterst&uuml;tzen, komplexe Herausforderungen effizient und ganzheitlich zu l&ouml;sen.</p></p>
+<p> Erfahren Sie, wie die Alesi KI-Agenten Unternehmen im DACH-Raum dabei unterst&uuml;tzen, komplexe Herausforderungen effizient und ganzheitlich zu l&ouml;sen.</p>
 <a class="md-button md-button--primary" href="https://www.youtube.com/watch?v=Kvnvzt6hthM" target="_blank" title="Webinar: Multi-Agenten KI-Kollaboration">Zum Webinar</a>
 
 </div>
