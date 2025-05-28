@@ -3,7 +3,7 @@ site_name: ''
 site_url: https://satware.ai/
 site_author: satware AG
 site_description: >-
-  Entdecken Sie die KI-gestützten Lösungen von satware® AI. Innovative
+  Entdecken Sie die KI-gestützten Lösungen von satware®. Innovative
   Automatisierung und maßgeschneiderte IT-Lösungen für Ihr Unternehmen.
 
 use_directory_urls: false
@@ -140,7 +140,7 @@ extra:
       link: https://www.xing.com/pages/satwareag
       name: satware AG auf Xing
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UChfn2XBDQ9yfZrWnMzs1k0g
+      link: https://www.youtube.com/channel/UCHfn2XBDQ9yfZrWnMzs1k0g
       name: satware AG auf YouTube
 
   #cards:
@@ -179,6 +179,7 @@ nav:
       - Justus Alesi: team/justus.md
       - Lara Alesi: team/lara.md
       - Lenna Alesi: team/lenna.md
+      - Leon Alesi: team/leon.md
       - Luna Alesi: team/luna.md
       - Marco Alesi: team/marco.md
       - Olu Alesi: team/olu.md
