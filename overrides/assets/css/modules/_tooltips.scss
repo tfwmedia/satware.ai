@@ -1,0 +1,250 @@
+// =============================================================================
+// Tooltip Improvements for satware.ai
+// =============================================================================
+// Fixes issue #70: Tooltip width to fit content in 1 line
+// Ensures tooltips display properly across all browsers and components
+
+// -----------------------------------------------------------------------------
+// Browser Native Tooltip Override (Critical Fix)
+// -----------------------------------------------------------------------------
+// This is the most important part - we need to override browser behavior
+
+// Hide default browser tooltips and create custom ones
+[title] {
+  position: relative;
+  
+  // Hide the default browser tooltip
+  &:hover {
+    // Remove the title temporarily to prevent browser tooltip
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      pointer-events: none;
+    }
+  }
+  
+  // Create our custom tooltip
+  &:hover::after {
+    content: attr(title);
+    position: absolute;
+    z-index: 9999;
+    
+    // Critical: Single line display
+    white-space: nowrap !important;
+    
+    // Positioning (above the element)
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    
+    // Styling
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.2;
+    
+    // Ensure it doesn't wrap
+    max-width: none !important;
+    width: max-content;
+    
+    // Shadow for visibility
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    
+    // Prevent interaction
+    pointer-events: none;
+    
+    // Animation
+    opacity: 0;
+    animation: tooltipFadeIn 0.2s ease-in-out forwards;
+  }
+  
+  // Arrow pointing down
+  &:hover::before {
+    content: '';
+    position: absolute;
+    z-index: 9998;
+    
+    // Positioning (above the element, below the tooltip)
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2px;
+    
+    // Arrow shape
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgba(0, 0, 0, 0.9);
+    
+    // Animation
+    opacity: 0;
+    animation: tooltipFadeIn 0.2s ease-in-out forwards;
+  }
+}
+
+// Animation for smooth appearance
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Footer Specific Overrides
+// -----------------------------------------------------------------------------
+.satag--footer-social-icons {
+  a[title] {
+    // Ensure proper spacing for social icons
+    &:hover::after {
+      // Position above with more space
+      margin-bottom: 12px;
+      
+      // Smaller font for social icons
+      font-size: 11px;
+      padding: 4px 8px;
+    }
+    
+    &:hover::before {
+      margin-bottom: 6px;
+      border-top-color: rgba(0, 0, 0, 0.9);
+    }
+  }
+}
+
+.md-footer-custom-links {
+  a[title] {
+    &:hover::after {
+      // Position above footer links
+      margin-bottom: 10px;
+      font-size: 11px;
+      padding: 4px 8px;
+    }
+    
+    &:hover::before {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Dark Mode Adjustments
+// -----------------------------------------------------------------------------
+[data-md-color-scheme="slate"] {
+  [title]:hover::after {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  [title]:hover::before {
+    border-top-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Responsive Adjustments
+// -----------------------------------------------------------------------------
+@media (max-width: 768px) {
+  [title]:hover::after {
+    font-size: 10px !important;
+    padding: 3px 6px !important;
+    margin-bottom: 6px !important;
+  }
+  
+  [title]:hover::before {
+    margin-bottom: 0px !important;
+    border-width: 3px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [title]:hover::after {
+    font-size: 9px !important;
+    padding: 2px 4px !important;
+    margin-bottom: 4px !important;
+    
+    // On very small screens, allow some wrapping but limit width
+    white-space: normal !important;
+    max-width: 200px !important;
+    text-align: center;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// MkDocs Material Native Tooltips (Secondary)
+// -----------------------------------------------------------------------------
+.md-tooltip {
+  white-space: nowrap !important;
+  max-width: 300px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  z-index: 9999 !important;
+  font-size: 0.75rem !important;
+  line-height: 1.2 !important;
+  padding: 0.5rem 0.75rem !important;
+  background-color: var(--md-default-bg-color) !important;
+  border: 1px solid var(--md-default-fg-color--lighter) !important;
+  border-radius: 0.25rem !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+// -----------------------------------------------------------------------------
+// Accessibility Improvements
+// -----------------------------------------------------------------------------
+@media (prefers-reduced-motion: reduce) {
+  [title]:hover::after,
+  [title]:hover::before {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media (prefers-contrast: high) {
+  [title]:hover::after {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  [data-md-color-scheme="slate"] [title]:hover::after {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #000 !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Print Styles
+// -----------------------------------------------------------------------------
+@media print {
+  [title]:hover::after,
+  [title]:hover::before,
+  .md-tooltip {
+    display: none !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Fallback for browsers that don't support ::after on hover
+// -----------------------------------------------------------------------------
+@supports not (content: attr(title)) {
+  [title] {
+    // Fallback: at least try to style the browser tooltip
+    title: attr(title) !important;
+  }
+}
