@@ -18,11 +18,7 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 
 <div class="satag--webinar-dates">
 
-    <div class="satag--webinar-item">
-        <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 13.06.2025</div>
-        <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
-        <div class="satag--webinar-course">KI im Handwerk: Gunta Alesi live erleben!</div>
-    </div>
+    
 
     <div class="satag--webinar-item">
         <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 20.06.2025</div>
@@ -32,6 +28,12 @@ führende Unternehmen diese Technologie zur Effizienzsteigerung im Arbeitsalltag
 
      <div class="satag--webinar-item">
         <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 27.06.2025</div>
+        <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
+        <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
+    </div>
+
+    <div class="satag--webinar-item">
+        <div class="satag--webinar-date"><i class="fa-sharp fa-thin fa-calendar-day"></i> Fr. 04.07.2025</div>
         <div class="satag--webinar-time"><i class="fa-sharp fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
         <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
     </div>
