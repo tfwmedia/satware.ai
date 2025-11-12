@@ -49,6 +49,10 @@
     {% if config.extra.alternate %}
       {% include "partials/alternate.html" %}
     {% endif %}
+    <!-- CTA Button: Jetzt bestellen! -->
+    <a href="https://satware.ai/zugang/" class="md-button md-button--primary satag-bestellen-button" aria-label="Jetzt bestellen!">
+      Jetzt bestellen!
+    </a>
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
       {% if search.enabled %}
