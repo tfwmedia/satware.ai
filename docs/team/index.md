@@ -119,7 +119,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="fenix.html" class="team-agent-link" title="Fenix Alesi - Firebird SQL Datenbankexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -131,9 +131,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Fenix <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Firebird SQL Datenbankexperte</span>
-      <p class="team-agent-description">Fenix ist auf Firebird SQL-Datenbanken (Versionen 2.5 bis 5.0) spezialisiert. Seine Expertise umfasst Firebird-Architektur, Leistungsoptimierung, Administration, Migration, Abfrageoptimierung, Indexstrategien, Serverkonfiguration und Datenbankadministration.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Firebird SQL Datenbankexperte</span>
+    <p class="team-agent-description">Fenix ist auf Firebird SQL-Datenbanken (Versionen 2.5 bis 5.0) spezialisiert. Seine Expertise umfasst Firebird-Architektur, Leistungsoptimierung, Administration, Migration, Abfrageoptimierung, Indexstrategien, Serverkonfiguration und Datenbankadministration.</p>
   </div>
 
   <div class="team-agent">
@@ -333,7 +333,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="tim.html" class="team-agent-link" title="Tim Alesi - Web-Entwicklungsexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -345,9 +345,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Tim <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Web-Entwicklungsexperte</span>
-      <p class="team-agent-description">Tim ist ein Web-Entwicklungsexperte mit über 20 Jahren Erfahrung. Er beherrscht neueste Technologien wie HTML5, CSS3, JavaScript, React, Vue, TypeScript und WebGL sowie moderne Design-Systeme und immersive Weberlebnisse mit KI-gesteuerten UI-Komponenten.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Web-Entwicklungsexperte</span>
+    <p class="team-agent-description">Tim ist ein Web-Entwicklungsexperte mit über 20 Jahren Erfahrung. Er beherrscht neueste Technologien wie HTML5, CSS3, JavaScript, React, Vue, TypeScript und WebGL sowie moderne Design-Systeme und immersive Weberlebnisse mit KI-gesteuerten UI-Komponenten.</p>
   </div>
 
   <div class="team-agent">
@@ -369,7 +369,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="zuri.html" class="team-agent-link" title="Zuri Alesi - Umfassende Heim-KI-Assistenz">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -381,9 +381,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Zuri <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Umfassende Heim-KI-Assistenz</span>
-      <p class="team-agent-description">Zuri unterstützt das Familienleben auf vielfältige Weise. Ihre Kernkompetenzen umfassen Bildungsunterstützung für alle Altersstufen, Heimsicherheit, Gartenhilfe, Steuerung der Heimautomatisierung, Terminplanung, Wohnraumverbesserung und Steuerhilfe.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Umfassende Heim-KI-Assistenz</span>
+    <p class="team-agent-description">Zuri unterstützt das Familienleben auf vielfältige Weise. Ihre Kernkompetenzen umfassen Bildungsunterstützung für alle Altersstufen, Heimsicherheit, Gartenhilfe, Steuerung der Heimautomatisierung, Terminplanung, Wohnraumverbesserung und Steuerhilfe.</p>
   </div>
 </div>
 
