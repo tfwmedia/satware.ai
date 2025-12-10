@@ -378,7 +378,11 @@ nav:
       - Wolfgang Alesi: team/wolfgang.md
       - Zuri Alesi: team/zuri.md
   - Anwendungsbeispiele: anwendungsbeispiele/index.md
-  - Webinare: webinare/index.md
+  - Webinare:
+      - webinare/index.md
+      - Termine: webinare/termine/index.md
+      - Anmeldung: webinare/anmeldung/index.md
+      - Aufzeichnungen: webinare/aufzeichnungen/index.md
   - Workshops: workshops/index.md
   - Bestellen: zugang/index.md
   - FAQ: faq/index.md
