@@ -181,27 +181,7 @@ body.home div.ccm-settings-summoner,
   }
 }
 
-// Mobile Navigation Fix - Korrekte z-index Hierarchie: Header < Overlay < Sidebar
-body.home {
-  .md-header {
-    z-index: 10000 !important;
-  }
-  
-  // Mobile Navigation Drawer (Sidebar Container) - muss ÜBER dem Overlay liegen
-  .md-sidebar--primary {
-    z-index: 10002 !important;
-  }
-  
-  // Mobile Toggle Button (Hamburger-Menü)
-  .md-header__button.md-icon {
-    z-index: 10000 !important;
-  }
-  
-  // Overlay - muss ÜBER dem Header, aber UNTER der Sidebar liegen
-  .md-overlay {
-    z-index: 10001 !important;
-  }
-}
+
 
 // Generelle Mobile Navigation Fix (für alle Seiten)
 .md-header {
@@ -211,7 +191,7 @@ body.home {
 // Sidebar Container muss über Overlay liegen
 // WICHTIG: position erforderlich, damit z-index funktioniert
 .md-sidebar--primary {
-  position: relative !important;
+  //position: relative !important;
   z-index: 10002 !important;
 }
 
@@ -244,7 +224,7 @@ body{
       left: 0;
       width: 100%;
       height: 800px; // Nur obere 800px werden vom Bild überdeckt
-      background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
+      //background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
       z-index: 0;
       pointer-events: none;
     }
@@ -254,11 +234,7 @@ body{
       box-shadow: none;
       position: relative;
     }
-    
-    .md-main {
-      position: relative;
-      z-index: 1;
-    }
+
 
     @media screen and (max-width: 768px) {
       background-size: 100%;
