@@ -20,7 +20,7 @@ tags:
 
 # SWR Aktuell Rheinland-Pfalz – satware® AI im Einsatz bei der Stadt Worms 📺💡
 
-Wie Künstliche Intelligenz die Verwaltung von morgen prägt: Ein Blick hinter die Kulissen bei der Stadt Worms und der satware AG
+## Wie Künstliche Intelligenz die Verwaltung von morgen prägt: Ein Blick hinter die Kulissen bei der Stadt Worms und der satware AG
 
 Künstliche Intelligenz ist nicht mehr nur ein Trendthema in der fernen Tech-Welt, sondern kommt direkt in unseren Kommunen an. Das Team von [SWR Aktuell Rheinland-Pfalz](https://www.swr.de/swraktuell/rheinland-pfalz/index.html){: target="_blank"} hat kürzlich die [Stadt Worms](https://www.worms.de/){: target="_blank"} besucht, um live zu erleben, wie moderne KI-Lösungen den Alltag in der Verwaltung bereits heute verändern.
 
