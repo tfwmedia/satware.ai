@@ -29,7 +29,7 @@ Als IT-Dienstleister der Region durften wir, die [satware AG](https://satware.co
 ## KI als Antwort auf den Fachkräftemangel und zur Effizienzsteigerung 🏗️
 
 Der Besuch des SWR verdeutlichte ganz klar, dass der öffentliche Sektor und die Wirtschaft vor ähnlichen Herausforderungen stehen. Der wachsende Fachkräftemangel erfordert neue Wege, um die Servicequalität aufrechterhalten bzw. optimieren zu können. Hier setzt satware® AI an.
-Durch die intelligente Analyse von Datenbeständen und die Unterstützung der KI-Agenten bei Routineaufgaben oder Recherchen, schafft satware® AI eine spürbare Effizienzsteigerung Ihrer Mitarbeiter. Bei der Stadt Worms werden bereits heute „digitale Kollegen“ eingesetzt, um Prozesse deutlich schneller zu machen, um Arbeitsabläufe zu optimieren und die Verwaltung nachhaltig zu entlasten.
+Durch die intelligente Analyse von Datenbeständen und die Unterstützung der KI-Agenten bei Routineaufgaben oder Recherchen schafft satware® AI eine spürbare Effizienzsteigerung Ihrer Mitarbeitenden. Bei der Stadt Worms werden bereits heute „digitale Kollegen“ eingesetzt, um Prozesse deutlich schneller zu machen, um Arbeitsabläufe zu optimieren und die Verwaltung nachhaltig zu entlasten.
 Schauen Sie sich den Beitrag vom SWR Rheinland-Pfalz zur satware® AI [hier](https://www.tagesschau.de/inland/regional/rheinlandpfalz/swr-wie-kuenstliche-intelligenz-die-verwaltung-in-worms-beschleunigt-100.html){: target="_blank" } an.
 
 ## satware® AI: Maßgeschneiderte Lösungen für Kommunen und den Mittelstand 🛡️
