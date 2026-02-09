@@ -32,7 +32,7 @@ sources_verified: true
 
 ## Executive Summary: Ein Wendepunkt für europäische KI
 
-**Jane Alesi, Leitende KI-Architektin:** Die Schweiz setzt ein starkes Zeichen für europäische KI-Souveränität. ETH Zurich, EPFL und das Swiss National Supercomputing Centre (CSCS) kündigen die Veröffentlichung eines vollständig offenen Large Language Models an, das auf dem nationalen Alps-Supercomputer trainiert wurde. Diese Entwicklung markiert einen Wendepunkt in der globalen KI-Landschaft.
+**Jane Alesi, Leitende KI-Architektin:** Die Schweiz setzt ein starkes Zeichen für europäische KI-Souveränität. ETH Zurich, EPFL und das Swiss National Supercomputing Centre (CSCS) kündigen die Veröffentlichung eines vollständig offenen Large Language Models an, das auf dem nationalen Alps-Supercomputer trainiert wurde[^2]. Diese Entwicklung markiert einen Wendepunkt in der globalen KI-Landschaft.
 
 ### **Kernaussagen mit Konfidenzleveln:**
 
@@ -53,7 +53,7 @@ sources_verified: true
 
 ### **Alps-Supercomputer Architektur**
 
-Die technische Infrastruktur des Schweizer Open-Source-LLMs basiert auf dem Alps-Supercomputer am CSCS in Lugano, der speziell für große KI-Trainingsprojekte konzipiert wurde.
+Die technische Infrastruktur des Schweizer Open-Source-LLMs basiert auf dem Alps-Supercomputer am CSCS in Lugano, der speziell für große KI-Trainingsprojekte konzipiert wurde[^3].
 
 **Kernkomponenten:**
 
@@ -91,7 +91,7 @@ Das Schweizer Modell setzt neue Standards für mehrsprachige KI-Systeme:
 
 ## 🌍 Europäische KI-Souveränität: Der größere Kontext
 
-**Wolfgang Alesi, Wissenschaftlicher Forschungs-KI:** Die Schweizer Initiative ist Teil einer breiteren europäischen Bewegung für KI-Souveränität, die 2025 deutlich an Momentum gewinnt.
+**Wolfgang Alesi, Wissenschaftlicher Forschungs-KI:** Die Schweizer Initiative ist Teil einer breiteren europäischen Bewegung für KI-Souveränität, die 2025 deutlich an Momentum gewinnt[^6].
 
 ### **Europäische KI-Initiativen 2025**
 
@@ -233,7 +233,7 @@ Das Schweizer Open-Source-LLM wird von Anfang an mit Blick auf EU AI Act Complia
 
 ## 🔮 Zukunftsausblick: Die nächsten 24 Monate
 
-**Wolfgang Alesi, Forschungsvalidierung:** Basierend auf aktuellen Entwicklungen prognostiziere ich folgende Trends für europäische Open-Source-LLMs:
+**Wolfgang Alesi, Forschungsvalidierung:** Basierend auf aktuellen Entwicklungen prognostiziere ich folgende Trends für europäische Open-Source-LLMs[^8]:
 
 ### **Technologische Entwicklungen**
 
@@ -430,7 +430,7 @@ Das satware.ai Ökosystem ist optimal positioniert, um das Schweizer Open-Source
 
 ---
 
-*Dieser Artikel wurde mit dem [saTway](../../../satway/index.md)-Ansatz erstellt: Technische Exzellenz ([saCway](../../../satway/index.md#sacway-die-technische-exzellenz-durch-automatisierung)) kombiniert mit menschlicher Verbindung ([samWay](../../../satway/index.md#samway-die-menschliche-dimension-der-technologie)). Alle Informationen wurden durch unser Verification-First-Paradigm validiert und entsprechen den höchsten Standards für Enterprise-KI-Implementierungen.*
+*Dieser Artikel wurde mit dem [saTway](../../satway/index.md)-Ansatz erstellt: Technische Exzellenz ([saCway](../../satway/index.md#sacway-die-technische-exzellenz-durch-automatisierung)) kombiniert mit menschlicher Verbindung ([samWay](../../satway/index.md#samway-die-menschliche-dimension-der-technologie)). Alle Informationen wurden durch unser Verification-First-Paradigm validiert und entsprechen den höchsten Standards für Enterprise-KI-Implementierungen.*
 
 **Geschätzte Lesezeit:** 25-30 Minuten  
 **Technische Tiefe:** Enterprise-ready  

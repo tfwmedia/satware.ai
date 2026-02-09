@@ -47,7 +47,7 @@ Am 20. Juni 2025 schockte eine Nachricht die Tech-Welt: **Cluely AI**, ein Start
 Die Gründer? **Von Columbia University suspendiert** wegen ihres vorherigen "Interview Coder" Tools[^1].
 
 !!! danger "⚖️ Das regulatorische Erdbeben kommt"
-    **GDPR-Zeitbombe**: Heimliche Audioaufzeichnung = bis zu 4% Jahresumsatz Strafe  
+    **GDPR-Zeitbombe**: Heimliche Audioaufzeichnung = bis zu 4% Jahresumsatz Strafe[^3]  
     **EU AI Act Verstoß**: Intransparente Hochrisiko-KI ab August 2024 illegal[^2]  
     **Reputationsrisiko**: Einmal entdeckt = dauerhafter Vertrauensverlust
 
